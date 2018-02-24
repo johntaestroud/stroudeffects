@@ -1727,13 +1727,44 @@ body #home {
     margin 0;
 }
 
+/* ======================
+         Contact
+========================= */
+
+/* Left side */
+
+#contact-left p {
+    margin: 25px 0 20px 0;
+}
+
+ul.office-details {
+    list-style: none;
+    padding: 
+}
+
+ul.office-details li {
+    font-family: "Opan Sans", sans-serif;
+    margin-top: 12px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+ul.office-details li i {
+    font-size: 20px;
+    width: 45px;  
+}
 
 
+#contact-left ul.social-list li a {
+    color: #212226;
+    text-align: center;
+}
 
-
-
-
-
+#contact-left ul.social-list li a:hover {
+    color: #fff;
+    border-color: transparent;
+}
 
 
 
