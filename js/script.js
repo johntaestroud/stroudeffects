@@ -144,7 +144,6 @@ $(function () {
 /* ======================
        Section #10
 ========================= */
-
 $(function () {
     $('#clients-list').owlCarousel({
         items: 6,
@@ -155,5 +154,41 @@ $(function () {
         nav: true,
         dots: false,
         navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+    });
+});
+
+/* ======================
+        Google Map
+========================= */
+$(window).on('load', function () {
+
+    // Map variables
+    var addressString = '413 N Alafaya Trail, FL, Orlando, USA';
+    var myLatlng = {
+        lat: 28.554483,
+        lng: -81.200473
+    };
+
+    // 1. Render Map
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 11,
+        center: myLatlng
+    });
+
+    // 2. Add Marker
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: "Click to see address"
+    });
+
+    // 3. Add Info Window
+    var infowindow = new google.maps.InfoWindow({
+        content: addressString
+    });
+
+    //shows info when user clicks
+    marker.addListener('click', function () {
+        infowindow.open(map, marker);
     });
 });
