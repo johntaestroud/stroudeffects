@@ -133,12 +133,12 @@ $(function () {
        Stats
 ========================= */
 $(function () {
-    
+
     $(".counter").counterUp({
-       delay: 10,
+        delay: 10,
         time: 2000
     });
-    
+
 });
 
 /* ======================
@@ -157,23 +157,3 @@ $(function () {
         navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

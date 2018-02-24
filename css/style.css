@@ -33,12 +33,12 @@ body #preloader {
 }
 
 
-body #about, 
+body #about,
 #about-02,
-#team, 
+#team,
 #services,
 #services-02,
-#portfolio, 
+#portfolio,
 #testimonials {
     background: linear-gradient(270deg, #4449e2, #e7e8ea);
     background-size: 600% 600%;
@@ -1667,19 +1667,23 @@ body #home {
 .client img {
     display: inline-block !important;
 }
-  
+
 /* ======================
          Blog
 ========================= */
+
 #blog {
     background: #4449e2;
 }
+
 #blog-left p {
     margin: 25px 0;
 }
+
 #blog-btn a {
     margin: 0;
 }
+
 .blog-post {
     background: #fff;
     padding: 20px;
@@ -1696,8 +1700,9 @@ body #home {
 .blog-post > p {
     line-height: 24px;
     margin: 0;
-    font-weight: 300;   
+    font-weight: 300;
 }
+
 .blog-post a {
     display: inline-block;
     margin-top: 25px;
@@ -1710,9 +1715,11 @@ body #home {
     -webkit-transition: all 400ms linear;
     transition: all 400ms linear;
 }
+
 .blog-post a:hover {
     color: #212226;
 }
+
 .blog-post .post-meta {
     border-top: 1px solid #e0e0e0;
     margin-top: 30px;
@@ -1739,7 +1746,7 @@ body #home {
 
 ul.office-details {
     list-style: none;
-    padding: 
+    padding:
 }
 
 ul.office-details li {
@@ -1752,7 +1759,7 @@ ul.office-details li {
 
 ul.office-details li i {
     font-size: 20px;
-    width: 45px;  
+    width: 45px;
 }
 
 
@@ -1793,35 +1800,3 @@ ul.office-details li i {
 #contact-right form textarea.form-control {
     min-height: 164px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
