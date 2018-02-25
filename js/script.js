@@ -192,3 +192,8 @@ $(window).on('load', function () {
         infowindow.open(map, marker);
     });
 });
+
+
+
+
+
