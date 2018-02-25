@@ -1855,3 +1855,62 @@ footer p {
 footer p span {
     color: #4449e2;
 }
+
+/* ======================
+    Navigation Bar
+========================= */
+.navbar {
+    padding: 3px 0 20px 0;
+}
+.site-nav-wrapper {
+    padding: 0 85px;
+}
+
+.navbar-brand {
+    padding: 13px 15px;
+}
+
+ul.navbar-nav > li > a {
+    font-family: "Raleway", sans-serif;
+    color: #e7e8ea;
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+ul.navbar-nav > li > a:hover
+ul.navbar-nav > li > a:focus {
+    background: none;
+    color: #4449e2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
