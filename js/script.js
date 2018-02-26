@@ -25,7 +25,17 @@ $(function () {
         autoplayHoverPause: true,
         nav: true,
         dots: false,
-        navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"]
+        navText: ["<i class='fa fa-chevron-left'></i>", "<i class='fa fa-chevron-right'></i>"],
+        responsive: {
+            // less than 480px
+            0: {
+                items: 1
+            },
+            // greater than 480px
+            480: {
+                items: 2
+            }
+        }
     });
 });
 
@@ -192,8 +202,3 @@ $(window).on('load', function () {
         infowindow.open(map, marker);
     });
 });
-
-
-
-
-

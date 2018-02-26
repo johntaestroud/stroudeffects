@@ -108,8 +108,8 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Raleway", sans-serif;   
-     -webkit-mask: url("https://github.com/robin-dela/css-mask-animation/blob/master/img/nature-sprite-2.png?raw=true");
+    font-family: "Raleway", sans-serif;
+    -webkit-mask: url("https://github.com/robin-dela/css-mask-animation/blob/master/img/nature-sprite-2.png?raw=true");
     mask: url("https://github.com/robin-dela/css-mask-animation/blob/master/img/nature-sprite-2.png?raw=true");
     -webkit-mask-size: 7100% 100%;
     mask-size: 7100% 100%;
@@ -132,7 +132,7 @@ p {
     font-size: 13px;
     font-weight: 400;
     line-height: 24px;
-     -webkit-mask: url("https://github.com/robin-dela/css-mask-animation/blob/master/img/nature-sprite-2.png?raw=true");
+    -webkit-mask: url("https://github.com/robin-dela/css-mask-animation/blob/master/img/nature-sprite-2.png?raw=true");
     mask: url("https://github.com/robin-dela/css-mask-animation/blob/master/img/nature-sprite-2.png?raw=true");
     -webkit-mask-size: 7100% 100%;
     mask-size: 7100% 100%;
@@ -1782,9 +1782,9 @@ ul.office-details {
 ul.office-details li {
     font-family: "Opan Sans", sans-serif;
     margin-top: 12px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
 }
 
 ul.office-details li i {
@@ -1897,165 +1897,141 @@ ul.navbar-nav > li > a:focus {
            Side Navbar
 =================================*/
 
-
 /* No Touch devices */
+
 .cd-nav-trigger {
-  display: none;
+    display: none;
 }
 
 .no-touch #cd-vertical-nav {
-  position: fixed;
-  right: 40px;
-  top: 50%;
-  bottom: auto;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-  z-index: 1;
+    position: fixed;
+    right: 40px;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 1;
 }
+
 .no-touch #cd-vertical-nav li {
-  text-align: right;
-  list-style: none;
+    text-align: right;
+    list-style: none;
 }
+
 .no-touch #cd-vertical-nav a {
-  display: inline-block;
-  /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-    
+    display: inline-block;
+    /* prevent weird movements on hover when you use a CSS3 transformation - webkit browsers */
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
 }
+
 .no-touch #cd-vertical-nav a:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
+
 .no-touch #cd-vertical-nav a span {
-  float: right;
-  display: inline-block;
-  -webkit-transform: scale(0.6);
-  -moz-transform: scale(0.6);
-  -ms-transform: scale(0.6);
-  -o-transform: scale(0.6);
-  transform: scale(0.6);
+    float: right;
+    display: inline-block;
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    transform: scale(0.6);
 }
+
 .no-touch #cd-vertical-nav a:hover span {
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-  transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
 }
+
 .no-touch #cd-vertical-nav a:hover .cd-label {
-  opacity: 1;
+    opacity: 1;
 }
+
 .no-touch #cd-vertical-nav a.is-selected .cd-dot {
-  background-color: white;
+    background-color: white;
 }
+
 .no-touch #cd-vertical-nav .cd-dot {
-  position: relative;
-  /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
-  top: 8px;
-  height: 12px;
-  width: 12px;
-  border-radius: 50%;
-  background-color: #000;
-  -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
-  -moz-transition: -moz-transform 0.2s, background-color 0.5s;
-  transition: transform 0.2s, background-color 0.5s;
-  -webkit-transform-origin: 50% 50%;
-  -moz-transform-origin: 50% 50%;
-  -ms-transform-origin: 50% 50%;
-  -o-transform-origin: 50% 50%;
-  transform-origin: 50% 50%;
+    position: relative;
+    /* we set a top value in order to align the dot with the label. If you change label's font, you may need to change this top value*/
+    top: 8px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: #000;
+    -webkit-transition: -webkit-transform 0.2s, background-color 0.5s;
+    -moz-transition: -moz-transform 0.2s, background-color 0.5s;
+    transition: transform 0.2s, background-color 0.5s;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
 }
+
 .no-touch #cd-vertical-nav .cd-label {
-  position: relative;
-  margin-right: 10px;
-  padding: .4em .5em;
-  color: #000;
-  font-size: 14px;
-  font-size: 0.875rem;
-  -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
-  -moz-transition: -moz-transform 0.2s, opacity 0.2s;
-  transition: transform 0.2s, opacity 0.2s;
-  opacity: 0;
-  -webkit-transform-origin: 100% 50%;
-  -moz-transform-origin: 100% 50%;
-  -ms-transform-origin: 100% 50%;
-  -o-transform-origin: 100% 50%;
-  transform-origin: 100% 50%;
+    position: relative;
+    margin-right: 10px;
+    padding: .4em .5em;
+    color: #000;
+    font-size: 14px;
+    font-size: 0.875rem;
+    -webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
+    -moz-transition: -moz-transform 0.2s, opacity 0.2s;
+    transition: transform 0.2s, opacity 0.2s;
+    opacity: 0;
+    -webkit-transform-origin: 100% 50%;
+    -moz-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    -o-transform-origin: 100% 50%;
+    transform-origin: 100% 50%;
 }
 
 
 .touch #cd-vertical-nav {
-  position: fixed;
-  z-index: 1;
-  right: 5%;
-  bottom: 30px;
-  width: 90%;
-  max-width: 400px;
-  max-height: 90%;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  -webkit-transform-origin: right bottom;
-  -moz-transform-origin: right bottom;
-  -ms-transform-origin: right bottom;
-  -o-transform-origin: right bottom;
-  transform-origin: right bottom;
-  -webkit-transform: scale(0);
-  -moz-transform: scale(0);
-  -ms-transform: scale(0);
-  -o-transform: scale(0);
-  transform: scale(0);
-  -webkit-transition-property: -webkit-transform;
-  -moz-transition-property: -moz-transform;
-  transition-property: transform;
-  -webkit-transition-duration: 0.2s;
-  -moz-transition-duration: 0.2s;
-  transition-duration: 0.2s;
-  border-radius: 0.25em;
-  background-color: rgba(255, 255, 255, 0.9);
+    position: fixed;
+    z-index: 1;
+    right: 5%;
+    bottom: 30px;
+    width: 90%;
+    max-width: 400px;
+    max-height: 90%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    -webkit-transform-origin: right bottom;
+    -moz-transform-origin: right bottom;
+    -ms-transform-origin: right bottom;
+    -o-transform-origin: right bottom;
+    transform-origin: right bottom;
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    transition-property: transform;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    border-radius: 0.25em;
+    background-color: rgba(255, 255, 255, 0.9);
 }
 
 
 @media only screen and (min-width: 768px) {
-  .touch .cd-nav-trigger, .touch #cd-vertical-nav {
-    bottom: 40px;
-  }
+    .touch .cd-nav-trigger,
+    .touch #cd-vertical-nav {
+        bottom: 40px;
+    }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
