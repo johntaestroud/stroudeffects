@@ -596,13 +596,14 @@ body {
 
 /* ======================
         Arrow Down
-========================= */
+========================= 
 
 #arrow-down {
+ 
     position: absolute;
     left: 50%;
     bottom: 20px;
-    color: #fff;
+    color: #444;
     font-size: 32px;
     width: 32px;
     height: 32px;
@@ -1857,8 +1858,8 @@ footer p span {
 }
 
 /* ======================
-    Navigation Bar
-========================= */
+    Old Navigation Bar
+========================= 
 .navbar {
     padding: 3px 0 20px 0;
 }
@@ -1892,11 +1893,9 @@ ul.navbar-nav > li > a:focus {
 }
 
 
-/* -------------------------------- 
-
-Main components 
-
--------------------------------- */
+/* ==============================
+           Side Navbar
+=================================*/
 
 
 /* No Touch devices */
@@ -2026,6 +2025,8 @@ Main components
     bottom: 40px;
   }
 }
+
+
 
 
 

@@ -3,12 +3,12 @@
 =========================  */
 
 $(window).on('load', function () { // ensures site is loaded
-    $('#preloader').delay(3200).fadeOut('slow');
-    $('.longfazers').delay(2400).fadeOut('slow');
-    $('.face').delay(2400).fadeOut('slow');
-    $('.base span').delay(2400).fadeOut('slow');
-    $('.body').delay(2400).fadeOut('slow');
-    $('.face').delay(2400).fadeOut('slow');
+    $('#preloader').delay(2500).fadeOut('slow');
+    $('.longfazers').delay(1700).fadeOut('slow');
+    $('.face').delay(1700).fadeOut('slow');
+    $('.base span').delay(1700).fadeOut('slow');
+    $('.body').delay(1700).fadeOut('slow');
+    $('.face').delay(1700).fadeOut('slow');
 
 });
 

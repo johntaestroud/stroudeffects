@@ -1,0 +1,23 @@
+/* ==============================
+    Bootstrap 3 Media Queries
+=================================*/
+
+/* Large Devices (Desktops & Laptops )*/
+@media (min-width: 1200px) {
+    
+}
+
+/* Medium Devices (Medium Desktops & Landscape Tablets )*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/* Small Devices (Small Desktops & Portrait Tablets )*/
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+
+/* Extra Small Devices (Landscape Phones & Portrait Tablets )*/
+@media (min-width: 767px) {
+    
+}
