@@ -69,13 +69,26 @@
    /*Pricing*/
     .pricing-table .price h2 {
         margin: 0 0 0 6px;
-        font-size: 35px;
-        
+        font-size: 35px;    
+    }
+    
+    /* Stats */
+    .stats-item p {
+        line-height: 18px;
     }
     
    /*Blog*/
     .blog-post .post-meta p {
         line-height: 14px;
+    }
+    
+   /*Contact*/
+    ul.office-details li {
+        margin-right: 15px;    
+    }
+    
+    ul.office-details li i {
+        width: 25px;
     }
       
 }
